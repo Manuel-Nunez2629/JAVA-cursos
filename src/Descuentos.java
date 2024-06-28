@@ -1,6 +1,5 @@
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.util.Scanner;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-public class Main {
+public class Descuentos {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
