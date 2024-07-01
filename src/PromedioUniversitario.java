@@ -5,7 +5,6 @@ public class PromedioUniversitario {
         float prom= 0, sumatoria = 0;
         System.out.println("Ingrese su Nombre: ");
         String nombre = sc.nextLine();
-        System.out.println("Ingresa la materia:\n");
         for(int i =1; i<=5; i++){
             System.out.println("Ingrese sus notas:"+i);
             float notas = sc.nextFloat();
@@ -13,6 +12,6 @@ public class PromedioUniversitario {
             prom = sumatoria/5;
         }
         System.out.println("Hola "+nombre+"\nTu promedio es de: "+prom);
-        sc.close();
+
     }
 }
